@@ -38,3 +38,4 @@ class BakedGood(db.Model, SerializerMixin):
 
     def __repr__(self):
         return f'<Baked Good {self.name}, ${self.price}>'
+    
